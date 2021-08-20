@@ -5,83 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="imagens/apple-touch-icon.png" type="image/png" >
+    <link rel="stylesheet" href="part2.css">
     <title>Controle de Estoque</title>
 </head>
 <body>
     <div>
-        <h1 style="background-color: rgb(24, 203, 248);"> Produto Tech </h1>
+        <h1 class="marca"> Produto Tech </h1>
     </div>
     
     <div>
-        <b>
-            <a href="index.html">Página Inicial</a>
-            <a href="ctrl-estoque.html">Controle de Estoque</a>
-            <a href="add-produto.html">Adicionar Produto</a>
-            <a href="funcionarios.html">Funcionários</a>
-        </b>
+        <b><a class="menu-parUm" href="index.html">Página Inicial</a></b>
+            <b><a class="menu-parDois" href="ctrl-estoque.html">Controle de Estoque</a></b>
+            <b><a class="menu-parTres" href="add-produto.html">Adicionar Produto</a></b>
+            <b><a class="menu-parQuar-Dois" href="funcionarios.html">Funcionários</a></b>
     </div>
 
-    <h2>Controle de Estoque</h2>
-
-    <table>
-        <tr>
-            <th>Foto</th>
-            <th>Descrição</th>
-            <th>Preço (R$)</th>
-            <th>Quantidade disponível</th>
-        </tr>
-
-        <tr>
-            <td><img style="width:200px; height:150px;" src="imagens/relogio.png" alt="SmartWatch"/></td>
-            <td> Relogio </td>
-            <td> 35,55 </td>
-            <td> 50 </td>
-        </tr>
-
-        <tr>
-            <td><img style="width:200px; height:180px;" src="imagens/Pulseira-Aço.png" alt="Pulseira Aço"/></td>
-            <td> Pulseira Aço SmartWatch</td>
-            <td> 19,55 </td>
-            <td> 100 </td>
-        </tr>
-
-        <tr>
-            <td><img style="width:200px; height:150px;" src="imagens/carregador.png" alt="Carregador Sem Fio Iphone"/></td>
-            <td> Carregador Sem Fio </td>
-            <td> 29,55 </td>
-            <td> 80 </td>
-        </tr>
-
-        <tr>
-            <td><img style="width:200px; height:150px;" src="imagens/fone-de-ouvido.png" alt="Fone De Ouvido Sem Fio Bluetooth"/></td>
-            <td> Fone De Ouvido Sem Fio </td>
-            <td> 32,55 </td>
-            <td> 40 </td>
-        </tr>
-
-        <tr>
-            <td><img style="width:200px; height:150px;" src="imagens/caixinha-de-som.png" alt="Caixinha Som Bluetooth"/></td>
-            <td> Caixinha De Som Bluetooth </td>
-            <td> 28,55 </td>
-            <td> 20 </td>
-        </tr>
-
-        <tr>
-            <td><img style="width:200px; height:150px;" src="imagens/Kit-Teclado-Mouse.png" alt="Kit Teclado Mouse Led Gamer"/></td>
-            <td> Kit Teclado Mouse Led </td>
-            <td> 99,55 </td>
-            <td> 90 </td>
-        </tr>
-
-        <tr>
-            <td><img style="width:200px; height:150px;" src="imagens/base-notebook.png" alt="Base Para Notebook"/></td>
-            <td> Base Para Notebook Cooler </td>
-            <td> 159,55 </td>
-            <td> 110 </td>
-        </tr>
+    <h2 class="controle">Controle de Estoque</h2>
+    <div class="centro">
+        <table class="produto">
+            <tr>
+                <th>Foto</th>
+                <th style="padding: 0px 77px;">Descrição</th>
+                <th style="padding: 0px 57px;">Preço (R$)</th>
+                <th style="padding: 0px 21px;">Quantidade disponível</th>
+            </tr>
+            <tr class="text-cor">
+                <td ><img class="img-produto" src="imagens/relogio.png" alt="SmartWatch"/></td>
+                <td style="text-align: center;"> Relogio </td>
+                <td style="text-align: center;"> 35,55 </td>
+                <td style="text-align: center;"> 50 </td>
+            </tr>
+            <tr class="text-cor">
+                <td><img class="img-produto" src="imagens/Pulseira-Aço.png" alt="Pulseira Aço"/></td>
+                <td style="text-align: center;"> Pulseira Aço SmartWatch</td>
+                <td style="text-align: center;"> 19,55 </td>
+                <td style="text-align: center;"> 100 </td>
+            </tr>
+            <tr class="text-cor">
+                <td><img class="img-produto" src="imagens/carregador.png" alt="Carregador Sem Fio Iphone"/></td>
+                <td style="text-align: center;"> Carregador Sem Fio </td>
+                <td style="text-align: center;"> 29,55 </td>
+                <td style="text-align: center;"> 80 </td>
+            </tr>
+            <tr class="text-cor">
+                <td><img class="img-produto" src="imagens/fone-de-ouvido.png" alt="Fone De Ouvido Sem Fio Bluetooth"/></td>
+                <td style="text-align: center;"> Fone De Ouvido Sem Fio </td>
+                <td style="text-align: center;"> 32,55 </td>
+                <td style="text-align: center;"> 40 </td>
+            </tr>
+            <tr class="text-cor">
+                <td><img class="img-produto" src="imagens/caixinha-de-som.png" alt="Caixinha Som Bluetooth"/></td>
+                <td style="text-align: center;"> Caixinha De Som Bluetooth </td>
+                <td style="text-align: center;"> 28,55 </td>
+                <td style="text-align: center;"> 20 </td>
+            </tr>
+            <tr class="text-cor">
+                <td><img class="img-produto" src="imagens/Kit-Teclado-Mouse.png" alt="Kit Teclado Mouse Led Gamer"/></td>
+                <td style="text-align: center;"> Kit Teclado Mouse Led </td>
+                <td style="text-align: center;"> 99,55 </td>
+                <td style="text-align: center;"> 90 </td>
+            </tr>
+            <tr class="text-cor">
+                <td><img class="img-produto" src="imagens/base-notebook.png" alt="Base Para Notebook"/></td>
+                <td style="text-align: center;"> Base Para Notebook Cooler </td>
+                <td style="text-align: center;"> 159,55 </td>
+                <td style="text-align: center;"> 110 </td>
+            </tr>
         
-
-    </table>
+        </table>
+    </div>
 
 </body>
 </html>

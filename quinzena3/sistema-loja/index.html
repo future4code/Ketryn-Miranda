@@ -5,38 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="imagens/apple-touch-icon.png" type="image/png" >
+    <link rel="stylesheet" href="part1.css">
     <title>Produto Tech</title>
 </head>
 <body>
     <div>
-        <h1 style="background-color: rgb(24, 203, 248);">Bem-vind@ ao <em> Produto Tech </em>!</h1>
-        <p> Tecnologia boa é aqui.</p>
+        <h1 class="bemvindo">Bem-vind@ ao <em> Produto Tech </em>!</h1> <!--rgb(24, 203, 248)-->
+        <p style="display: none"> Tecnologia boa é aqui.</p> 
     </div>
 
-    <div>
-        <b><a href="index.html">Página Inicial</a></b>
-        <b><a href="ctrl-estoque.html">Controle de Estoque</a></b>
-        <b><a href="add-produto.html">Adicionar Produto</a></b>
-        <b><a href="funcionarios.html">Funcionários</a></b>
+    <div class="menu-geral">
+        
+            <b><a class="menu-parUm" href="index.html">Página Inicial</a></b>
+            <b><a class="menu-parDois" href="ctrl-estoque.html">Controle de Estoque</a></b>
+            <b><a class="menu-parTres" href="add-produto.html">Adicionar Produto</a></b>
+            <b><a class="menu-parQuar-Dois" href="funcionarios.html">Funcionários</a></b>
+            <!-- <span class="menu-parQuar"><b><a style="color: white;" href="funcionarios.html">Funcionários</a></b></span> -->
+        
     </div>
 
     <div>
         <i>
-            <p>Av. Assis Chateaubriand, 1015 - St. Oeste, Goiânia - GO, 74000-000.
-                Abre de segunda a sexta das 08:00 ás 18:00
-                Telefone: (62) 32320-0000
+            <p style="display: flex; justify-content: center; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Av. Assis Chateaubriand, 1015 - St. Oeste, Goiânia - GO, 74000-000. Abre de segunda a sexta das 08:00 ás 18:00 Telefone: (62) 32320-0000
             </p>
         </i>
     </div>
-
+    
+    <footer>
     <div>
-        <p>Siga-nos nas redes sociais!</p>
+        
+        <div class="footer">
+                <h2 style="display: flex; justify-content: center; align-items: center; color: black;
+                padding: 0px 45px;">Siga-nos nas redes sociais!</h2>
+                <a class="tex-facebook" href=""><img class="facebook" src="https://image.flaticon.com/icons/png/512/25/25305.png"/> Facebook</a> 
 
-        <div>
-            <img src="https://image.flaticon.com/icons/png/512/25/25305.png"/>
-            <img src="https://image.flaticon.com/icons/png/512/25/25425.png"/>
-            <img style="background-color: rgb(42, 117, 204); width:150px; height:150px;" src="https://image.flaticon.com/icons/png/512/8/8800.png"/>
+                <a class="tex-insta" href=""><img class="instagram" src="https://image.flaticon.com/icons/png/512/25/25425.png"/> Instagram</a>
+                
+                <a class="tex-insta" href=""><img class="instagram" src="https://image.flaticon.com/icons/png/512/8/8800.png"/> Twitter</a>
+
+            </div>
         </div>
-    </div>
+    </footer>
 </body>
 </html>

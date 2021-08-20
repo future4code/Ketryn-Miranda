@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.marca{
+    background-color: #01c5f6;
+    display: flex;
+    height: 66px;
+    justify-content: center;
+
+    align-items: center;
+    color: white;
+}
+
+.menu-parUm{
+    background-color: #01c5f6cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 64px;
+    position: relative;
+    left: 3px;
+    font-size: 14pt;
+    border-radius: 33px;
+    color: white;
+    top: 5px;
+}
+
+.menu-parDois{
+    background-color: #01c5f6cc;
+    display: flex;
+    font-size: 14pt;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 64px;
+    position: relative;
+    left: 343px;
+    top: -59px;
+    border-radius: 33px;
+    color: white;
+}
+
+.menu-parTres{
+    background-color: #01c5f6cc;
+    display: flex;
+    font-size: 14pt;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 64px;
+    position: relative;
+    left: 683px;
+    top: -123px;
+    border-radius: 33px;
+    color: white;
+}
+
+.menu-parQuar-Dois{
+    background-color: #01c5f6cc;
+    display: flex;
+    font-size: 14pt;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 64px;
+    position: relative;
+    left: 1020px;
+    top: -187px;
+    border-radius: 33px;
+    color: white;
+}
+
+.menu-parUm:focus{
+    border-radius: 0px;
+    color: black;
+}
+
+.menu-parDois:focus{
+    border-radius: 0px;
+    color: black;
+}
+
+.menu-parTres:focus{
+    border-radius: 0px;
+    color: black;
+}
+
+.menu-parQuar-Dois:focus{
+    border-radius: 0px;
+    color: black;
+}
+
+.img-produto{
+    width:255px;
+    height:174px;
+}
+
+.produto{
+    display: flex;
+    background-color: #01c5f6cc;
+    height: 21px;
+    /* margin: 0px 63px; */
+}
+
+.text-cor{
+    background-color: rgba(0, 0, 0, 0.048);
+}
+
+.centro{
+    display: flex;
+    margin-top: 1px;
+    justify-content: center;
+    align-content: center;
+}
+
+.controle{
+    display: flex;
+    background-color: #01c5f6cc;
+    width: 869px;
+    height: 42px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -158px;
+    margin-left: 240px;
+
+}

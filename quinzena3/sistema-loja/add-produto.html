@@ -5,52 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="imagens/apple-touch-icon.png" type="image/png" >
+    <link rel="stylesheet" href="part3.css">
     <title>Adicionar Produto</title>
 </head>
 <body>
     <div>
-        <p> Produto Tech </p>
+        <h1 class="marca"> Produto Tech </h1>
     </div>
     
     <div>
-        <a href="">Página Inicial</a>
-        <a href="">Controle de Estoque</a>
-        <a href="">Adicionar Produto</a>
-        <a href="">Funcionários</a>
+        <b><a class="menu-parUm" href="index.html">Página Inicial</a></b>
+            <b><a class="menu-parDois" href="ctrl-estoque.html">Controle de Estoque</a></b>
+            <b><a class="menu-parTres" href="add-produto.html">Adicionar Produto</a></b>
+            <b><a class="menu-parQuar-Dois" href="funcionarios.html">Funcionários</a></b>
     </div>
 
+    <h2 class="adicionar">Adicionar Produto</h2>
     
-    <h2>Adicionar Produto</h2>
-    <form action="">
-        <div>
-            <label for="link-foto">Link para foto: </label>
-            <input type="url" id="link-foto" name="link-foto">
-        </div>
+    <div class="centro">
+        <form action="">
+            <div>
+                <label style="padding: 0px 5px;" class="link" for="link-foto">Link para foto: </label>
+                <input style="padding: 0px 50px;" type="url" id="link-foto" name="link-foto">
+            </div>
         
-        <div>
-            <label for="descricao">Descrição do produto: </label>
-            <!-- Adicione o id apropriado para o input abaixo -->
-            <input type="text" id="descrição" name="descrição">
-        </div>
+            <div>
+                <label style="padding: 0px 5px;" for="descricao">Descrição do produto: </label>
+                <!-- Adicione o id apropriado para o input abaixo -->
+                <input style="padding: 0px 27px;" type="text" id="descrição" name="descrição">
+            </div>
         
-        <div>
-            <label for="preco">Preço (em R$): </label>
-            <!-- Adicione o id apropriado e o type para receber números abaixo -->
-            <input type="number" id="preço" name="preço">
-        </div>
+            <div>
+                <label style="padding: 0px 5px;" for="preco">Preço (em R$): </label>
+                <!-- Adicione o id apropriado e o type para receber números abaixo -->
+                <input style="padding: 0px 49px;" type="number" id="preço" name="preço">
+            </div>
         
-        <div>
-            <!-- Preencha as propriedades necessárias para os elementos abaixo -->
-            <label>Quantidade disponível: </label>
-            <input type="number" id="quantidade" name="quantidade" >
-        </div>
-
-        <div class="form-add">
-            <!-- Adicione ao type do botão abaixo o valor para que ele submeta o formulário -->
-            <button type="submit">Adicionar</button>
-        </div>
-
-    </form>
+            <div>
+                <!-- Preencha as propriedades necessárias para os elementos abaixo -->
+                <label style="padding: 0px 5px;">Quantidade disponível: </label>
+                <input style="padding: 0px 23px;" type="number" id="quantidade" name="quantidade" >
+            </div>
+            <div style="padding: 0px 170px;" class="form-add">
+                <!-- Adicione ao type do botão abaixo o valor para que ele submeta o formulário -->
+                <button style=" background-color: #01c5f6cc ; color: black; border-radius: 0.4em;" type="submit">Adicionar</button>
+            </div>
+        </form>
+    </div>
 
 </body>
 </html>
