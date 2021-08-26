@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    background-color: #ef8433;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;  
+}
+
+.botao{
+    padding: 8px 35px;
+    color: white;
+    background-color: #f7df77;
+    border: 0.3em;
+    border-radius: 0.2em
+}
+
+
+.controle{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 80px
+}
+
+.preco{
+    padding: 8px 45px;
+}
+
+.produto{
+    padding: 8px 45px;
+}
