@@ -1,0 +1,23 @@
+.smallcard-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.smallcard-container h4 {
+    border: 1px solid black;
+    margin-bottom: 15px;
+    padding: 20px 180px;
+    height: 60px;
+}
+
+.smallcard-container p {
+    border: 1px solid black;
+    margin-bottom: 15px;
+    padding: 20px 215px;
+    height: 60px;
+    
+    
+}
